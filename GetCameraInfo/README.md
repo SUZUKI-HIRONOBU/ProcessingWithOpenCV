@@ -1,4 +1,4 @@
-# processing-w-opencv
+# pProcessingWithOpenCV
 
 プログラミング言語 ProcessingとOpenCVを使ってみよう。
 
