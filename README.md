@@ -1,4 +1,4 @@
-# processing-w-opencv
+# ProcessingWithOpenCV
 
 ## Learn Processing Programming with OpenCV
 
