@@ -25,7 +25,7 @@ https://github.com/opencv/opencv/blob/master/data/haarcascades には顔検出�
 ## プログラムの説明
 
 利用するカメラ番号を変数cameranumberに設定します。
-カメラ番号の選び方などがわからない時はSimpleCameraCaptureを参考にして設定してください。
+カメラ番号の選び方などがわからない時は SimpleCameraCapture を参考にして設定してください。
 size()はカメラのイメージのサイズと同じサイズを指定します。
 
 イメージの中にある顔の検出は次のコード部分で処理しています。
