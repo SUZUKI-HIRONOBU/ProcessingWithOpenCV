@@ -7,7 +7,7 @@
 ## 必要なライブラリ
 
 Processingの標準Videoライブラリである "Video 1.0.1 The Processing Foundation GStreamer-based video library for Processing." (2019/2 参照) をインストールします。
-インストール方法は processing-w-opencv/README.md を参照してください。
+インストール方法は ProcessingWithOpenCV/README.md を参照してください。
 
 ## プログラムの説明
 
