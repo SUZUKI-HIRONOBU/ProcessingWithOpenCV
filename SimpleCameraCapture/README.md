@@ -12,14 +12,15 @@ Processingの標準Videoライブラリである "Video 1.0.1 The Processing Fou
 ## プログラムの説明
 
 このプログラムはカメラ(Webカメラ)から画像を取り込み表示します。
-変数cameranumberを利用しているカメラの解像度とフレームレートにあわせて適切な値にする必要があります。
-どのような解像度とフレームレートが使われるか事前に調べる必要があります。
+変数cameranumberは、カメラ番号です。
+まず最初に GetCameraInfo や ShowCameraList を使いカメラ番号とイメージのサイズを調べます。
+カメラから取り込めるイメージのサイズにあわせてsize()は適切な値にする必要があります。
 関数size()で指定する表示画面サイズはカメラの解像度に依存しますので適切な値にする必要があります。
 
 
 ## その他
 
-カメラの解像度とフレームレートに関してはGetCameraInfo.pdeやShowCameraList.pdeを参照してください。
+カメラのイメージのサイズとフレームレートに関してはGetCameraInfo や ShowCameraList を使います。
 
 
 :shipit:
