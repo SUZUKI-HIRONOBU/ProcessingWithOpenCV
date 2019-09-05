@@ -19,9 +19,14 @@ Contribute Managerの右上に「Filter(フィルタ)」と文字が入ってい
 - OpenCV for Processing 0.5.4 Greg Borenstein  Computer vision with OpenCV.
 - Video 1.0.1 The Processing Foundation  GStreamer-based video library for Processing.
 
-## 利用可能なビデオカメラをリストアップする
+## 利用可能なカメラをリストアップする
 
-まずShowCameraListを使い利用可能なビデオカメラ(Webカメラ)をリストアップします。認識されたカメラは1番目から順に利用可能な画像サイズ及びfpsで区別されリストアップされますが、多機能なカメラを利用している場合、いろいろな画面サイズや利用可能なfpsの値が多数あり、その組み合わせでリストアップされるので大量なリストになります。その場合、Processingのテキストエリアで確認可能な行数よりも多くなってしまい情報すべてを確認できません。同じ内容がShowCameraListディレクトリ下のcameralist.txtファイルに格納されていますので、そちらでも確認が可能です。fps=30のみでよければGetCameraInfoを使うと便利でしょう。
+まずShowCameraListを使い利用可能なカメラ(Webカメラ)をリストアップします。認識されたカメラは1番目から順に利用可能な画像サイズ及びfpsで区別されリストアップされますが、多機能なカメラを利用している場合、いろいろな画面サイズや利用可能なfpsの値が多数あり、その組み合わせでリストアップされるので大量なリストになります。その場合、Processingのテキストエリアで確認可能な行数よりも多くなってしまい情報すべてを確認できません。同じ内容がShowCameraListディレクトリ下のcameralist.txtファイルに格納されていますので、そちらでも確認が可能です。fps=30のみでよければGetCameraInfoを使うと便利でしょう。
+
+## カメラが動作することを確認する
+
+SimpleCameraCapture には利用可能なカメラからイメージを読み込み表示するプログラムが用意されています。
+ShowCameraList や GetCameraInfo を使いカメラが取り込むイメージのサイズと、その設定の順番（ここではカメラ番号と呼んでいます）を確認し、そのサイズとカメラ番号をプログラム中で指定することで動作します。
 
 
 :shipit:
